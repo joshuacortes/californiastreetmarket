@@ -10,6 +10,7 @@ body {margin:0;font-family:Arial}
 .topnav {
   overflow: hidden;
   background-color: #f2f2f2;
+  width:100%;
 }
 
 .topnav a {
@@ -22,9 +23,12 @@ body {margin:0;font-family:Arial}
   font-size: 17px;
   letter-spacing:-0.75px;
   text-transform:uppercase;
+  
 }
 
-
+  .active{
+    margin-left:25%;
+  }
 
 .topnav .icon {
   display: none;
@@ -91,6 +95,9 @@ body {margin:0;font-family:Arial}
 }
 
 @media screen and (max-width: 600px) {
+  .active{
+    margin-left:0px;
+  }
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
