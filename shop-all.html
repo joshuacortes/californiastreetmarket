@@ -84,7 +84,32 @@ body {margin:0;font-family:Arial}
   display: block;
 }
 
+   .footer{
+    bottom:0;
+    top:90%;
+    position:fixed;
+    width:100%;
+  }
+  
+  .footerlogo{
+      text-decoration:none;
+    color:Black;
+    font-size:.8em;
+    text-transform:uppercase;
+    letter-spacing:-1px;
+    opacity:0.4;
+    float:right;
+    margin-right:10%;
+  }
+  
+  
 @media screen and (max-width: 800px) {
+  
+    .footerlogo{
+    letter-spacing:-0.5px;
+  }
+  
+  
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -159,4 +184,7 @@ function myFunction() {
 </script>
 
 </body>
+   <div class="footer">
+  <h2 class="footerlogo">California Street Market</h2>
+  </div>
 </html>
