@@ -69,6 +69,9 @@ div::-webkit-scrollbar {
     
     margin-top:100px; 
     height:675px;width:70%; overflow:auto; 
+    border-top:3px solid #9f9d9c;
+    border-bottom:3px solid #9f9d9c;
+    border-radius:60px;
   }
     
     .musictitle{
@@ -96,8 +99,18 @@ div::-webkit-scrollbar {
       opacity:0.9;
       margin-left:3px;
     }
-  
+    .homeicon{
+      width:60px;
+    }
 @media screen and (max-width: 800px) {
+     .homeicon{
+      width:40px;
+    }
+  
+     .platlink{
+     
+      font-size:.9em;
+    }
   
     .mediacont{
     height:660px;
@@ -111,7 +124,7 @@ div::-webkit-scrollbar {
     
   </style>
 <div style="position:fixed;margin-left:7%;margin-top:10%;">
-   <a style="text-decoration:none;" href="/">   <img style="width:60px;" src="https://user-images.githubusercontent.com/11182868/197676189-10364237-52f4-4a2a-a8ea-4861b92c2fa6.gif"/></a>
+   <a style="text-decoration:none;" href="/">   <img class="homeicon" src="https://user-images.githubusercontent.com/11182868/197676189-10364237-52f4-4a2a-a8ea-4861b92c2fa6.gif"/></a>
   <br><br>
   <a class="platlink" href="/discover-music">Music</a>
   <br>
