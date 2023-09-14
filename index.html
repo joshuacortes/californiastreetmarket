@@ -28,7 +28,7 @@ body, html {
 
 .w3-button{
     font-size:1.45em;
- margin-top:25px;
+ margin-top:20px;
   letter-spacing:-.5px;
   }
 
@@ -192,8 +192,13 @@ margin-top:10%;
   .footerlogo{
     float:left;
   }
- 
+  .tickerbutton{
+    font-weight:bold;letter-spacing:-1px; font-size:1.5em; padding:10px; border-radius:10px; border:1px solid #000000;
+  }
 @media only screen and (max-width:1000px){
+  .tickerbutton:hover{
+    opacity:0.4;
+  }
   .footerlogo{
     float:none;width:auto;
   }
@@ -247,11 +252,11 @@ height: 100%;
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">    <a style="font-weight:bold;" href="/" class="">
-    <div style="padding:10px;width:100%; background-color:#DEE9F1;">
+    <div style="padding:20px;width:100%; background-color:#DEE9F1;">
     <center>
-      <a style="text-transform:uppercase;font-weight:bold;letter-spacing:.9px; font-size:1.05em;" href="/sell">Submit New Listing &#62;</a>
+      <a class="tickerbutton" href="/sell">Submit New Listing &#62;</a>
     </div>
-    <img style=" float:left;margin-left:3%;" src="https://i.ibb.co/h2SqXPQ/csm-logo-1.webp"/></a>
+    <img style=" float:left;padding:20px;" src="https://i.ibb.co/z2yrwKr/csm-logo-1.webp"/></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="/buy" class="w3-bar-item w3-button"> Buy A Website</a>
