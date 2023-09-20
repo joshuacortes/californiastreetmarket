@@ -110,7 +110,7 @@ body, html {
     float:left; 
   }
   .tickerbutton{
-    font-weight:none;letter-spacing:-1px; font-size:1.3em; padding:10px;  border-radius:10px; border:1px solid #000000;
+     font-weight:none;letter-spacing:-1px; font-size:1.3em; padding:10px;  font-weight:bold;
   }
   .tickerbutton:hover{
     opacity:0.4;
@@ -140,7 +140,14 @@ body, html {
     
     font-size:1em;
   }
+  .tickerbox{
+    padding:18px;width:100%; background-color:#DEE9F1;
+  }
 @media only screen and (max-width:1000px){
+  
+  .tickerbox{
+    padding:8px;
+  }
   
     .boxthree{
     float:none;
@@ -318,7 +325,7 @@ body, html {
     float:left; 
   }
   .tickerbutton{
-    font-weight:none;letter-spacing:-1px; font-size:1.3em; padding:10px;  border-radius:10px; border:1px solid #000000;
+     font-weight:none;letter-spacing:-1px; font-size:1.3em; padding:10px;  font-weight:bold;
   }
   .tickerbutton:hover{
     opacity:0.4;
@@ -348,7 +355,14 @@ body, html {
     
     font-size:1em;
   }
+  .tickerbox{
+    padding:18px;width:100%; background-color:#DEE9F1;
+  }
 @media only screen and (max-width:1000px){
+  
+  .tickerbox{
+    padding:8px;
+  }
   
     .boxthree{
     float:none;
@@ -426,10 +440,10 @@ body, html {
     <a href="/"><img class="logo" src="https://i.ibb.co/z2yrwKr/csm-logo-1.webp"/></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="/buy" class="w3-bar-item w3-button"> Buy A Website</a>
-      <a href="/sell" class="w3-bar-item w3-button"> Sell A Website</a>
-      <a href="/blog" class="w3-bar-item w3-button"> Tools</a>
-      <a href="#contact" class="w3-bar-item w3-button"> Contact</a>
+   <a title="Buy a website" href="/buy-a-website" class="w3-bar-item w3-button"> Buy A Website</a>
+      <a title="Sell a website" href="/sell-a-website" class="w3-bar-item w3-button"> Sell A Website</a>
+      <a href="/tools" class="w3-bar-item w3-button"> Tools</a>
+      <a href="/contact" class="w3-bar-item w3-button"> Contact</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -442,9 +456,9 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="/buy" onclick="w3_close()" class="w3-bar-item w3-button">Buy A Website</a>
-  <a href="/sell" onclick="w3_close()" class="w3-bar-item w3-button">Sell A Website</a>
-  <a href="/blog" onclick="w3_close()" class="w3-bar-item w3-button">Tools</a>
+   <a title="Buy a website" href="/buy" onclick="w3_close()" class="w3-bar-item w3-button">Buy A Website</a>
+ <a title="Sell a website"href="/sell" onclick="w3_close()" class="w3-bar-item w3-button">Sell A Website</a>
+  <a href="/tools" onclick="w3_close()" class="w3-bar-item w3-button">Tools</a>
   <a href="/contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
 
@@ -495,10 +509,10 @@ function w3_close() {
     <a href="/"><img class="logo" src="https://i.ibb.co/z2yrwKr/csm-logo-1.webp"/></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="/buy" class="w3-bar-item w3-button"> Buy A Website</a>
-      <a href="/sell" class="w3-bar-item w3-button"> Sell A Website</a>
-      <a href="/blog" class="w3-bar-item w3-button"> Tools</a>
-      <a href="#contact" class="w3-bar-item w3-button"> Contact</a>
+   <a title="Buy a website" href="/buy-a-website" class="w3-bar-item w3-button"> Buy A Website</a>
+      <a title="Sell a website" href="/sell-a-website" class="w3-bar-item w3-button"> Sell A Website</a>
+      <a href="/tools" class="w3-bar-item w3-button"> Tools</a>
+      <a href="/contact" class="w3-bar-item w3-button"> Contact</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -511,9 +525,9 @@ function w3_close() {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="/buy" onclick="w3_close()" class="w3-bar-item w3-button">Buy A Website</a>
-  <a href="/sell" onclick="w3_close()" class="w3-bar-item w3-button">Sell A Website</a>
-  <a href="/blog" onclick="w3_close()" class="w3-bar-item w3-button">Tools</a>
+   <a title="Buy a website" href="/buy" onclick="w3_close()" class="w3-bar-item w3-button">Buy A Website</a>
+ <a title="Sell a website"href="/sell" onclick="w3_close()" class="w3-bar-item w3-button">Sell A Website</a>
+  <a href="/tools" onclick="w3_close()" class="w3-bar-item w3-button">Tools</a>
   <a href="/contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
 
@@ -664,7 +678,7 @@ body, html {
     float:left; 
   }
   .tickerbutton{
-    font-weight:none;letter-spacing:-1px; font-size:1.3em; padding:10px;  border-radius:10px; border:1px solid #000000;
+     font-weight:none;letter-spacing:-1px; font-size:1.3em; padding:10px;  font-weight:bold;
   }
   .tickerbutton:hover{
     opacity:0.4;
@@ -694,7 +708,14 @@ body, html {
     
     font-size:1em;
   }
+  .tickerbox{
+    padding:18px;width:100%; background-color:#DEE9F1;
+  }
 @media only screen and (max-width:1000px){
+  
+  .tickerbox{
+    padding:8px;
+  }
   
     .boxthree{
     float:none;
@@ -772,10 +793,10 @@ body, html {
     <a href="/"><img class="logo" src="https://i.ibb.co/z2yrwKr/csm-logo-1.webp"/></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="/buy" class="w3-bar-item w3-button"> Buy A Website</a>
-      <a href="/sell" class="w3-bar-item w3-button"> Sell A Website</a>
-      <a href="/blog" class="w3-bar-item w3-button"> Tools</a>
-      <a href="#contact" class="w3-bar-item w3-button"> Contact</a>
+   <a title="Buy a website" href="/buy-a-website" class="w3-bar-item w3-button"> Buy A Website</a>
+      <a title="Sell a website" href="/sell-a-website" class="w3-bar-item w3-button"> Sell A Website</a>
+      <a href="/tools" class="w3-bar-item w3-button"> Tools</a>
+      <a href="/contact" class="w3-bar-item w3-button"> Contact</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -788,9 +809,9 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="/buy" onclick="w3_close()" class="w3-bar-item w3-button">Buy A Website</a>
-  <a href="/sell" onclick="w3_close()" class="w3-bar-item w3-button">Sell A Website</a>
-  <a href="/blog" onclick="w3_close()" class="w3-bar-item w3-button">Tools</a>
+   <a title="Buy a website" href="/buy" onclick="w3_close()" class="w3-bar-item w3-button">Buy A Website</a>
+ <a title="Sell a website"href="/sell" onclick="w3_close()" class="w3-bar-item w3-button">Sell A Website</a>
+  <a href="/tools" onclick="w3_close()" class="w3-bar-item w3-button">Tools</a>
   <a href="/contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
 
@@ -917,15 +938,15 @@ Enter Your Email Below to Be the First To Know of News & Sales.
         </div>
       <div class="footerbox">
         <p class="foottitle">Search</p>
-                <a class="footlink" href="/buy">Websites for Sale</a><br>
-        <a class="footlink" href="/buy#2500">Websites Under $2500</a><br>
+                <a title="Websites for Sale" class="footlink" href="/buy-a-website">Websites for Sale</a><br>
+        <a class="footlink" href="/buy-2500">Websites Under $2500</a><br>
         <a class="footlink" href="/find-a-broker">Find a Broker</a><br>
         <a class="footlink" href="/business-optimization">Business Optimization</a>
     
       </div>
       <div class="footerbox">
         <p class="foottitle">Advertise</p>
-                <a class="footlink" href="/sell">List a Business for Sale</a><br>
+<a title="Sell a website" class="footlink" href="/sell-a-website">List a Business for Sale</a><br>
         <a class="footlink" href="/paid-ads">Sign up for Paid Ads</a><br>
       </div>
       <div class="footerbox">
@@ -1097,15 +1118,15 @@ Enter Your Email Below to Be the First To Know of News & Sales.
         </div>
       <div class="footerbox">
         <p class="foottitle">Search</p>
-                <a class="footlink" href="/buy">Websites for Sale</a><br>
-        <a class="footlink" href="/buy#2500">Websites Under $2500</a><br>
+                <a title="Websites for Sale" class="footlink" href="/buy-a-website">Websites for Sale</a><br>
+        <a class="footlink" href="/buy-2500">Websites Under $2500</a><br>
         <a class="footlink" href="/find-a-broker">Find a Broker</a><br>
         <a class="footlink" href="/business-optimization">Business Optimization</a>
     
       </div>
       <div class="footerbox">
         <p class="foottitle">Advertise</p>
-                <a class="footlink" href="/sell">List a Business for Sale</a><br>
+<a title="Sell a website" class="footlink" href="/sell-a-website">List a Business for Sale</a><br>
         <a class="footlink" href="/paid-ads">Sign up for Paid Ads</a><br>
       </div>
       <div class="footerbox">
@@ -1152,15 +1173,15 @@ Enter Your Email Below to Be the First To Know of News & Sales.
         </div>
       <div class="footerbox">
         <p class="foottitle">Search</p>
-                <a class="footlink" href="/buy">Websites for Sale</a><br>
-        <a class="footlink" href="/buy#2500">Websites Under $2500</a><br>
+                <a title="Websites for Sale" class="footlink" href="/buy-a-website">Websites for Sale</a><br>
+        <a class="footlink" href="/buy-2500">Websites Under $2500</a><br>
         <a class="footlink" href="/find-a-broker">Find a Broker</a><br>
         <a class="footlink" href="/business-optimization">Business Optimization</a>
     
       </div>
       <div class="footerbox">
         <p class="foottitle">Advertise</p>
-                <a class="footlink" href="/sell">List a Business for Sale</a><br>
+<a title="Sell a website" class="footlink" href="/sell-a-website">List a Business for Sale</a><br>
         <a class="footlink" href="/paid-ads">Sign up for Paid Ads</a><br>
       </div>
       <div class="footerbox">
