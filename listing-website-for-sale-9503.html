@@ -233,7 +233,27 @@ margin-top:10%;
   .tickerbox{
     padding:18px;width:100%; background-color:#DEE9F1;
   }
+  .bottomtick{
+    position:fixed;
+    bottom:0;
+    padding:10px;
+    background-color:#243bfd;
+    width:100%;opacity:0.9;
+    z-index:9999;
+  }
+  .bottomtick:hover{
+    opacity:1;
+  }
+  .bottomticklink{
+    color:white;
+  }
 @media only screen and (max-width:1000px){
+  
+   .openimage{
+     padding:0px;
+  width: 100%;
+    margin-top:0px;
+  }
   
   .tickerbox{
     padding:9px;
@@ -310,14 +330,14 @@ margin-top:10%;
   }
   
   .box40{
-    width:70%; float:none;
+    width:100%; float:none;
     margin-left:0px;
   }
   
   .box60{
     width:100%;float:none;
     margin-left:0px;
-    margin-top:60px; 
+    margin-top:20px; 
   }
     
   .bannerbox{
@@ -386,8 +406,9 @@ function w3_close() {
   <div class="respheight"></div>
   
    <!-- SECTION 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-
-  
+<a class="bottomticklink" href=""><div class="bottomtick"><center>
+  Contact Seller &#62;</center> 
+    </div></a>
     
   <center>
      <!-- SECTION 2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
@@ -641,7 +662,7 @@ Enter Your Email Below to Be the First To Know of News & Sales.
        CA: Do Not Sell My Personal Info</a>
           <p class="footlinker">© 2023 Ferdinand Corp.</p>
         
-        <br>
+        <br>   <br>
       </div>
       
       
